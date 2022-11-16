@@ -12,6 +12,12 @@
     background-size: cover;
     position: relative;
 }
+.header img{
+    height:40px;
+    width:250px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
 nav{
     display:flex;
     padding: 2% 6%;
