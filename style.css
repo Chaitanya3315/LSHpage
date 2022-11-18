@@ -330,6 +330,12 @@ h3{
     text-align: center;
     color: #fff;
 }
+.sub-header img{
+    height:40px;
+    width:250px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
 .sub-header h1{
     margin-top: 100px;
 
@@ -491,14 +497,19 @@ h3{
 .payment-modes{
     width:100%;
     color: black;
-
+    display: flex;
     top:50%;
     left:50%;
     text-align: center;
     
 }
-.donate-btn{
+.donate-btn {
     padding: 20px 0px 20px 0px;
+
+}
+
+.donate-btn form{
+    padding: 100px 0px 20px 0px;
 
 }
 .sub-btn{
@@ -511,7 +522,21 @@ h3{
     font-size: 20px;
 }
 
-.payment-modes img{
+
+.qr-code{
+    width:100%;
+    color: black;
+    top:50%;
+    left:50%;
+    text-align: center;
+}
+.qr-code img{
     height: 600px;
     width: 300px;
+}
+
+.qr-code h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
