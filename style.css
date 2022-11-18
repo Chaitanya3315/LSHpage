@@ -486,3 +486,32 @@ h3{
     border:  1px solid #ccc;
     box-sizing: border-box;
 }
+
+/*---donate button--*/
+.payment-modes{
+    width:100%;
+    color: black;
+
+    top:50%;
+    left:50%;
+    text-align: center;
+    
+}
+.donate-btn{
+    padding: 20px 0px 20px 0px;
+
+}
+.sub-btn{
+    padding: 20px 0px 20px 0px;
+
+}
+.payment-modes h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.payment-modes img{
+    height: 600px;
+    width: 300px;
+}
