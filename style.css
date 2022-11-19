@@ -387,7 +387,6 @@ h3{
     border-radius: 10px;
     padding: 20px 12px;
     box-sizing:border-box;
-    transition: 0.5s;
 }
 .objectives p{
     color: black;
@@ -408,12 +407,12 @@ h3{
 /*--works--*/
 .how h1{
     text-align: center;
-    color: #f44336;
+    color: pink;
     padding-top:50px ;
 }
 .works{
-    padding: 25px 50px 75px 100px;
-    background-color: #FFC0CB;
+    padding: 25px 50px 75px 50px;
+    background-color: #fff2f4;
     
 }
 .works-row{
@@ -425,14 +424,14 @@ h3{
     max-width:100%;
     font-size: larger;
     color: black;
-    padding: 25px 50px 0px 50px;
+    padding: 25px 50px 0px 10px;
 }
 .works ul{
     max-width:100%;
     font-size: larger;
     color: black;
-    margin-left: 30px;
-    padding: 10px 50px 0px 50px;
+    margin-left: 10px;
+    padding: 10px 50px 0px 10px;
 }
 
 /*---contactpage--*/
@@ -495,6 +494,7 @@ h3{
 
 /*---donate button--*/
 .payment-modes{
+    background-color: rgb(255, 225, 230);
     width:100%;
     color: black;
     display: flex;
@@ -524,6 +524,7 @@ h3{
 
 
 .qr-code{
+    background-color: rgb(255, 225, 230);
     width:100%;
     color: black;
     top:50%;
@@ -539,4 +540,65 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+/*--hospital locations--*/
+.hospital-loc{
+    text-align: center;
+    padding-top: 30px;
+}
+.hos-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.hos-col{
+    flex-basis: 31%;
+    background: #fff3ff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+@media(max-width:700px){
+    .hos-row{
+        margin-left: 0%;
+        display:inline-block;
+    }
+}
+.hos-col h1{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+}
+
+.hll-col img{
+    padding: 0px 0px 0px 5px 0px;
+    width: 90%;
+}
+
+.hll-col h1{
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.hll-col p{
+    font-size: larger;
+    color: black;
+    padding: 15px 0 25px;
+}
+
+.bank-info{
+
+    background-color: rgb(255, 225, 230);
+}
+.bank-info h1{
+    margin-left: 5%;
+    text-align: center;
+}
+.bank-info p{
+    text-align: center;
+    margin-left: 5%;
+    color: black;
+    font-weight: 400;
 }
