@@ -313,6 +313,11 @@ h3{
     font-weight: 600;
 
 }
+.icons{
+    display: flex;
+    flex-basis: 50%;
+    margin-left:45%;
+}
 .icons .fa{
     color:rgb(10, 10, 10);
     margin: 0 13px;
@@ -602,3 +607,7 @@ h3{
     color: black;
     font-weight: 400;
 }
+
+
+
+
