@@ -453,11 +453,6 @@ h3{
     color: #555;
 }
 
-.locaton iframe{
-    width:100%;
-
-}
-
 .contactus{
     width:80%;
     margin:auto;
@@ -506,8 +501,13 @@ h3{
     top:50%;
     left:50%;
     text-align: center;
-    
 }
+@media(max-width:700px){
+    .payment-modes{
+        display: block;
+    }
+}
+
 .donate-btn {
     padding: 20px 0px 20px 0px;
 
